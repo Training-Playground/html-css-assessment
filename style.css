@@ -1,0 +1,53 @@
+.sidebar{ 
+    background: aqua;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 100%;
+}
+
+.logo{
+    padding: 1em;
+}
+
+.content{
+    position: fixed;
+    left: 250px;
+    right: 0;
+    top: 10%;
+    bottom: 5%;
+    overflow: auto;
+}
+
+#content-heading{
+    padding-left: 1em;
+}
+
+#content-paragraph{
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+
+.footer{
+    background: orange;
+    position: fixed;
+    bottom: 0;
+    left: 250px;
+    right: 0;
+    height: 5%;
+    font-size: 15px;
+    text-align: center;
+}
+
+.header{
+    background: lightgreen;
+    position: fixed;
+    top: 0;
+    left: 250px;
+    right: 0;
+    height: 10%;
+    font-size: 15px;
+    text-align: center;
+}
