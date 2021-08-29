@@ -7,14 +7,37 @@
     height: 100%;
 }
 
+ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+
 a{
     display: block;
     padding: 15px 25px;
     font-size: 25px;
-    position: relative;
-    list-style: none;
-    text-decoration: none;
+    position: relative;    
     color: black;
+    text-decoration: none;  
+    text-align: center;  
+}
+
+a:hover{
+    background: #F7CECC;
+}
+
+.course-details{
+    display: none;    
+}
+ 
+#courses-menu:hover + .course-details{
+    display: block;
+    position: fixed;
+    top: 25%;
+    left: 250px;
+    width: 225px;
+    background: #D9E8FB;
+    
 }
 
 .logo{
